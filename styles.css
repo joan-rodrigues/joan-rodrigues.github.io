@@ -198,3 +198,7 @@ p.social a:hover {
 #curriculo:hover {
   background-color: #c41a5b;
 }
+
+.fa {
+  text-rendering: auto !important;
+}
