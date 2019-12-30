@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap'); 
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(../_images/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  width: 444px;
+  height: 650px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: white;
+  font-family: 'Century Gothic', sans-serif;
+  border-radius: 2%;
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: 100, bold;
+}
+
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100, bold;
+}
+
+.box p {
+  text-align: justify;
+}
+
+.sr-only {
+  position: absolute; 
+  width: 1px; 
+  height: 1px; 
+  padding: 0; 
+  margin: -1px; 
+  overflow: hidden; 
+  clip: rect(0,0,0,0); 
+  border: 0;
+}
+
+.social {
+  border-color: #ffffff;
+}
+
+p.social a {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 1.5em;
+  line-height: 3em;
+  font-size: 1.2em;
+  vertical-align: bottom;
+  text-align: center;
+  border: solid 1px #ccc;
+  transition: all 0.2s ease-out;
+}
+
+p.social a i {
+  vertical-align: middle;
+  font-size: 15pt;
+}
+
+p.social a i:before {
+  line-height: 3em;
+}
+
+p.social-colour a {
+  color: #fff;
+}
+
+p.social-colour a:hover, 
+p.social-colour a:focus {
+  color: #fff;
+}
+
+p.social a:hover {
+  color: rgb(71, 69, 69);
+}
+
+.facebook {
+  background-color: #4267b2; 
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.github {
+  background-color: #000;
+}
+
+.telegram {
+  background-color: #0373b4;
+}
+
+.globe {
+  background-color: #d42367;
+}
+
+.mail {
+  background-color: rgb(184, 12, 12);
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(22, 19, 19);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer p {
+  text-align: center;
+  line-height: 50px;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.links {
+  text-decoration: none;
+  color: #464545;
+}
+
+.links:hover {
+  color: #ffffff;
+}
+
+#links {
+  text-decoration: none;
+}
+
+#links:hover {
+  color: #ffffff;
+}
+
+#projects,
+#venomlabs,
+#curriculo {
+  margin-left: 1%;
+	background-color: #ffffff;
+	border-radius: 6px;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+  padding: 10px 25px;
+  margin-top: 25px;
+}
+
+#venomlabs {
+  background-color: #0373b4;
+  color: #ffffff;
+}
+
+#curriculo {
+  background-color: deeppink;
+  color: #ffffff;
+}
+
+#projects:hover {
+  background-color: #b6b2b2;
+}
+
+#venomlabs:hover {
+  background-color: #146391;
+}
+
+#curriculo:hover {
+  background-color: #c41a5b;
+}
